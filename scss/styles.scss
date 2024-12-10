@@ -1,0 +1,37 @@
+@import "./layouts/reset";
+@import "./layouts/header";
+@import "./layouts/main";
+@import "./layouts/new";
+@import "./layouts/exclusive";
+@import "./layouts/now";
+@import "./layouts/browse";
+@import "./layouts/roll";
+@import "./layouts/stay";
+@import "./layouts/footer";
+
+@import "./layouts/media";
+.top {
+    background-image: url("../assets/img/bg/main-bg.jpg");
+    background-position: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 0px 177px;
+}
+
+.title {
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+}
+
+.description {
+    padding-top: 25px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 165%;
+    letter-spacing: 0.02em;
+    max-width: 770px;
+    margin: 0 auto;
+}

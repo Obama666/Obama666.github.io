@@ -1,0 +1,51 @@
+.now {
+    position: relative;
+    padding: 40px 0px 40px 185px;
+    margin-bottom: 500px;
+
+    .description {
+        margin: 0;
+        text-align: left;
+        max-width: 770px;
+        padding-top: 24px;
+    }
+
+    &_list {
+        margin-top: 35px;
+        position: absolute;
+        justify-content: center;
+        left: -25%;
+        display: flex;
+        gap: 22px;
+
+        &-item {
+            position: relative;
+            &-text {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                padding: 37px 55px;
+                font-size: 24px;
+                font-weight: bold;
+                background: #f4f4f4;
+                max-width: 310px;
+            }
+        }
+    }
+    &_button {
+        position: absolute;
+        top: 50px;
+        right: 70px;
+        padding: 10px 35px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        background: linear-gradient(
+            150deg,
+            rgba(156, 176, 179, 1) 0%,
+            rgba(0, 132, 179, 1) 25%
+        );
+    }
+}

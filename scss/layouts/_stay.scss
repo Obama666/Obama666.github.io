@@ -1,0 +1,51 @@
+.stay {
+    background-image: url("../../assets/img/bg/stay-bg.png");
+    background-position: 1%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 235px 70px 100px 70px;
+
+    & .title {
+    }
+
+    & .description {
+        max-width: 467px;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 50px;
+    }
+
+    &_info {
+        display: flex;
+        background: #fff;
+        width: 500px;
+        border-radius: 10px;
+        justify-content: space-between;
+
+        &-input {
+            border-radius: 10px;
+            width: 100%;
+            border: none;
+            stroke: none;
+            padding: 11px 34px;
+            font-size: 15px;
+
+            &-button {
+                text-align: center;
+                border-radius: 10px;
+                padding: 12px 30px;
+                font-size: 20px;
+                font-weight: bold;
+                border: none;
+                color: #fff;
+                background: rgb(255, 195, 1);
+                background: linear-gradient(
+                    148deg,
+                    rgba(255, 195, 1, 1) 20%,
+                    rgba(255, 101, 51, 1) 100%
+                );
+                border: none;
+            }
+        }
+    }
+}

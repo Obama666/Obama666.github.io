@@ -1,0 +1,102 @@
+.main {
+    padding-top: 100px;
+    padding-bottom: 136px;
+    position: relative;
+    &_title {
+        font-size: 48px;
+        max-width: 500px;
+        font-weight: bold;
+        line-height: 140%;
+        letter-spacing: 0.02em;
+    }
+
+    &_descr {
+        margin-top: 40px;
+        font-size: 20px;
+        line-height: 160%;
+        max-width: 440px;
+        letter-spacing: 0.02em;
+        margin-bottom: 40px;
+    }
+
+    &_buttons {
+        display: flex;
+        gap: 20px;
+
+        &-fill {
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px 35px;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            color: #fff;
+            background: rgb(255, 195, 1);
+            background: linear-gradient(
+                148deg,
+                rgba(255, 195, 1, 1) 20%,
+                rgba(255, 101, 51, 1) 100%
+            );
+            border: 1px solid transparent;
+        }
+
+        &-trans {
+            text-align: center;
+            border-radius: 10px;
+            padding: 10px 35px;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            color: #fff;
+            border: 1px solid orange;
+            background: transparent;
+        }
+    }
+}
+
+.card {
+    bottom: 118px;
+    right: 0px;
+    width: 255px;
+    height: 182px;
+    background: rgb(156, 210, 238);
+    background: linear-gradient(
+        0deg,
+        rgba(156, 210, 238, 1) 0%,
+        rgba(0, 172, 238, 1) 100%
+    );
+    padding: 20px 30px;
+    position: absolute;
+    border-radius: 10px;
+    &_title {
+        font-weight: bold;
+        letter-spacing: 0.02em;
+    }
+
+    &_price {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin: 10px 0 27px 0;
+        &-main {
+            display: flex;
+            gap: 14px;
+            align-items: center;
+            &-text {
+                font-size: 24px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    &_user {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+
+        &-text {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    }
+}

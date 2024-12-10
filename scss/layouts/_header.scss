@@ -1,0 +1,44 @@
+.header {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_logo {
+        display: flex;
+        align-items: center;
+        gap: 17px;
+
+        &-text {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    &_nav {
+        display: flex;
+        gap: 36px;
+        margin-right: 25%;
+        &-item {
+            font-size: 20px;
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    &_button {
+        text-align: center;
+        border-radius: 10px;
+        padding: 10px 26px;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        color: #fff;
+        background: rgb(255, 195, 1);
+        background: linear-gradient(
+            148deg,
+            rgba(255, 195, 1, 1) 20%,
+            rgba(255, 101, 51, 1) 100%
+        );
+    }
+}

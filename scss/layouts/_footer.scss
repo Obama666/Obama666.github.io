@@ -1,0 +1,57 @@
+.footer {
+    padding: 150px 125px;
+    display: flex;
+    justify-content: space-between;
+    &_logo {
+        &-info {
+            display: flex;
+            align-items: center;
+            gap: 17px;
+            // Інформація про лого
+            img {
+                // Стилі для зображення лого
+            }
+
+            &-text {
+                font-size: 20px;
+                font-weight: bold;
+                // Стилі для тексту поруч із лого
+            }
+        }
+
+        &-descr {
+            padding-top: 30px;
+            max-width: 300px;
+            letter-spacing: 0.02em;
+            line-height: 190%;
+            // Стилі для опису під логотипом
+        }
+    }
+
+    &_column {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        font-size: 20px;
+        // Контейнер для окремого блоку колонок
+
+        &-title {
+            font-weight: bold;
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            // Стилі для списку посилань у колонках
+
+            &-item {
+                // Стилі для кожного елемента списку
+
+                a {
+                    color: #000;
+                }
+            }
+        }
+    }
+}
